@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>--Controls--
+
+First the main window must be in focus.
+
+Left click to activate oscillator-1.
+
+Middle click to activate oscillator-2.
+
+Right click to make particles static/non-static
+
+Press 1 to stop oscillator-1.
+
+Press 2 to stop oscillator-2.
+
+Press Spacebar to reset all particles.
+
+Press Enter to switch between fullscreen mode and windowed mode.
+
+----PARAMETERS----
+
+Note that when a change is made in a numeric up/down, it doesn't apply immidately. Focus on another control by clicking or pressing the Tab key to apply the change.
+
+--Adjustments--
+
+1. Mass
+
+Mass of each particle in the system. It determines natural frequency of the particles. Setting this to a very low value can lead to 'chaos'. In this case, increase the "Action Resolution".
+
+2. Limit
+
+Maximum amplitude a particle can have. It is almost 'effectless' but necessary.
+
+3. Action Resolution
+
+Determines the resolution of the movement. It is proportional with the accuracy of the output and most importantly it prevents 'chaos' but very high values may cause too much CPU load.
+
+4. Sustainability
+
+It is the ability of waves to propagate further. It can be thought as 'anti-friction' or 'conductivity' of the system. Setting this to 1 will completely stop the propagation.
+
+5. Delay
+
+Calculation timeout in milliseconds. Thread will make calculations until it runs out of time then the output will be rendered.
+
+6. Power
+
+Power of the output force exerted on each particle. For example, let's say a force calculation ended up with a 5 Newton. If the "power" is 2 then the force will be 25 Newtons instead. Default value is 1.
+
+7. Phase Rate 1 and Phase Rate 2
+
+Phase increase of oscillator per step. They affect the frequencies of both oscillator-1 and oscillator-2 respectively. They are proportional with the frequency. They must be between 0 and 2*pi.
+
+8. Size
+
+It is both width and height of the wave pool. Therefore the wave pool is square-shaped.  If you have a very fast CPU, the engine will probably run very fast so increase this value to slow down both the FPS and calculations.
+
+9. Edge Sustainability
+
+Boundary sustainability. When waves reach to the edges, particles next to the edges have that much of sustainability. This value must not be greater than "sustainability".
+
+10. Absorbtion Offset
+
+Distance between an edge and the beginning of the sustainability decrease line. This value must not be greater than half of the "size".
+
+11. Color 1, Color 2 and Color S
+
+"Color 1/2" buttons indicate Trough/Crest color. "Color S" button indicates static particle color. Backcolor of these buttons indicate the real colors.
+
+12. High Contrast
+
+Only three colors are used. These colors don't show how high a particle is. They show if a particle is above, below or on the origin.
+
+13. Edge Absorbtion
+
+When turned on, prevents waves to reflect from edges.
+
+14. Clear
+
+Sets all the particles as 'non-static'.
+
+15. Fill
+
+Sets all the particles as 'static'.
+
+16. Draw
+
+Drawing mode. Right click to make particles static.
+
+17. Erase
+
+Erasing mode. Right click to make particles non-static.
+
+18. Thickness
+
+Thickness of the drawer/eraser pen.
+
+--1D View--
+
+1. X (%)
+
+Abscissa of the input as percentage.
+
+2. Y (%)
+
+Ordinate of the input as percentage.
+
+3. Orientation
+
+Determines whether the input should be taken horizontally or vertically. For example, let's say the input is at %50-%50 and orientation is 'horizontal' then we will see the graph of particles on the middle row of the system.</value>
+  </data>
+</root>
